@@ -1,0 +1,11 @@
+@media screen and (max-width: 400px) {
+    .header-cap__about-us {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-cap__about-us {
+        margin-right: 15px !important;
+    }
+}
