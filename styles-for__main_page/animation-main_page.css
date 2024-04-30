@@ -8,3 +8,22 @@
     }
 }
 
+@keyframes open-line {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes close-line {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
