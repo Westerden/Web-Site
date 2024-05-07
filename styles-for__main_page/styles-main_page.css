@@ -162,6 +162,7 @@ html {
 
 #menu__right-panel {
     position: fixed;
+    z-index: 9998;
     right: 0;
     min-width: 20%;
     height: 100%;
@@ -430,7 +431,7 @@ html {
 
 .news-img:hover {
     position: relative;
-    z-index: 9998;
+    z-index: 9;
     transform: scale(0.95);
     transition: 0.5s;
     box-shadow: 0 0 40px #4f4f4f;
