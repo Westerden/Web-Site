@@ -317,7 +317,10 @@ html {
 }
 
 .why-we__answer {
+    text-align: center;
     margin-right: 5vw;
+    padding-top: 40px;
+    font-size: 50px;
 }
 
 .img-line {
@@ -336,8 +339,8 @@ html {
 
 .about-us, 
 .news {
-    padding: 50px;
-    font-size: 30px;
+    padding: 40px;
+    font-size: 30px; 
     font-family: fantasy, sans-serif;
 }
 
@@ -440,4 +443,12 @@ html {
 .news-img:not(:hover){
     transform: scale(1);
     transition: 0.5s;
+}
+
+.horizontal_line {
+    border-color: #ff0000;
+}
+
+.color-for-script {
+    color: #ff0000;
 }
